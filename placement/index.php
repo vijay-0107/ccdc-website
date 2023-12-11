@@ -20,9 +20,9 @@
 		<div class="wrap" style="background: transparent;">
 			<div class="grid-container">
 				
-				<div class="grid-block" style="width:90%; margin-right: auto; margin-left: auto;">
+				<div class="grid-block" style="width:90%; margin-right: auto; margin-left: auto;"> -->
 					<div class="home-carousel">
-						<div>
+						<!-- <div>
 							<img src="images/slider/slider-1.png" />
 						</div>
 						<div>
@@ -58,9 +58,47 @@
 						</div>
 						<div>
 							<img src="images/slider/slider-6.png" />
+						</div> -->
+						<div class="slider-container2">
+						<!-- <h1 style="font-size: 30px;margin-top:10px;margin-bottom:10px">Top Recruiters</h1> -->
+						<div class="slider">
+							<div class="slide2"></div>
+							<div class="slide2"></div>
+							<div class="slide2"></div>
+							<div class="slide2"></div>
+							<div class="slide2"></div>
+							<div class="slide2"></div>
+							<div class="slide2"></div>
+							<div class="slide2"></div>
+							<div class="slide2"></div>
+							<div class="slide2"></div>
+							<div class="slide2"></div>
+							<div class="slide2"></div>
+							<div class="slide2"></div>
+							
 						</div>
 					</div>
+					</div>
 				</div>
+				<!-- <div class="slider-container">
+						<h1 style="font-size: 30px;margin-top:10px;margin-bottom:10px">Top Recruiters</h1>
+						<div class="slider">
+							<div class="slide"></div>
+							<div class="slide"></div>
+							<div class="slide"></div>
+							<div class="slide"></div>
+							<div class="slide"></div>
+							<div class="slide"></div>
+							<div class="slide"></div>	
+							<div class="slide"></div>
+							<div class="slide"></div>
+							<div class="slide"></div>
+							<div class="slide"></div>
+							<div class="slide"></div>
+							<div class="slide"></div>
+						</div>
+					</div> -->
+
 				<div class="grid-con-2">
 					<?php include("panel.php"); ?>
 				</div>
