@@ -4,7 +4,7 @@
 	<div class="grid-container">
 			<div class="grid-block">
 				<div class="index-intro-text">
-					<h1>Demographics (2018)</h1><br>
+					<h1>Demographics (2023)</h1><br>
 					<script type="text/javascript">
 					  google.load("visualization", "1", {packages:["corechart"]});
 					  google.setOnLoadCallback(drawChart);

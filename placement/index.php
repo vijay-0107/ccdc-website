@@ -176,27 +176,45 @@
 				<div class="grid-con-2">
 					<?php include("panel.php"); ?>
 				</div>
-				<div class="grid-con">
-					<div class="grid-50-r" style="width: 60%">
-						<p class="frst-ltr" style="text-align:justify">The Centre for Career Development and councelling (CCDC) at IIT Patna focuses on holistic career development beyond job placements. CCDC offers career guidance, industry interactions, training, placement support, and data management. We conduct seminars, counseling, and peer groups for career exploration. CCD facilitates webinars, corporate visits, and MoUs for internships and jobs. Workshops, competitions, and skill development enhance employability. As intermediaries, we manage the placement process and ensure fairness. 
-						</p>
-						<p style="text-align:justify">CCDC envisions empowering students for successful careers through guidance and opportunities.With a dedicated team, CCDC strives to create a supportive environment where students can unlock their full potential and achieve their career goals. Through continuous improvement and collaboration with stakeholders, CCDC is committed to shaping the future of our students at IIT Patna.
-						</p>
-					</div>
-					<div class="grid-50-l" style="width: 40%">
-						<img src="images/slider/p10.jpg" style="width:520px; height:340px; object-fit: 100% 15; border-radius: 15px;"/>
+				<div class="grid-con" style="height: auto;">
+					<div class="grid-block">	
+						<div class="index-intro-text" style="direction:ltr">
+							<div >
+								<p>
+								<img src="images/slider/p10.jpg" style="float:right;margin:10px; width:30%; aspect-ratio: 16/9; padding: 10px 10px 10px 10px;">
+								<p class="frst-ltr" style="text-align:justify">The Centre for Career Development and councelling (CCDC) at IIT Patna focuses on holistic career development beyond job placements. CCDC offers career guidance, industry interactions, training, placement support, and data management. We conduct seminars, counseling, and peer groups for career exploration. CCD facilitates webinars, corporate visits, and MoUs for internships and jobs. Workshops, competitions, and skill development enhance employability. As intermediaries, we manage the placement process and ensure fairness. 
+								</p>
+								<p style="text-align:justify">CCDC envisions empowering students for successful careers through guidance and opportunities.With a dedicated team, CCDC strives to create a supportive environment where students can unlock their full potential and achieve their career goals. Through continuous improvement and collaboration with stakeholders, CCDC is committed to shaping the future of our students at IIT Patna.
+								</p>
+								</p>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="grid-con-1" style="height: 300px;">
-					<div class="grid-50-r" style="width: 40%">
-						<img src="images/slider/p1.png" style="width:480px; height:240px; object-fit: 10% 15; border-radius: 15px; margin-right: 20px;" />
+				<div class="grid-con-1" style="height: auto;">
+					<div class="grid-block">	
+						<div class="index-intro-text" style="direction:ltr">
+
+							<div >
+								<p>
+								<img src="images/fac/iit-patna-director.jpg" style="float:right;margin:10px; width:30%; aspect-ratio: 16/9; padding: 10px 10px 10px 10px;">
+								<h1 style="font-size: 30px;">Director's Message</h1>
+								<p class="frst-ltr">IIT Patna is trying its best to serve the nation by all possible means. In this respect, we aim to provide the industry with a technically high-quality employee pool that lends itself to the growth of various reputed organizations and contributes to our nation-building process. IIT Patna seeks to improve upon this goal every year, the latest developments being the addition of new courses and skill sets which has been designed keeping in view of the market demands and mandate of NEP,2020.
+								</p>
+								<a href="message.php">Read More</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="grid-50-r" style="width: 40%">
+						<img src="images/fac/iit-patna-director.jpg" style="width:480px; height:240px; object-fit: 10% 15; border-radius: 50%; margin-right: 20px;" />
 					</div>
 					<div class="grid-50-l" style="width: 60%">
 						<h1 style="font-size: 30px;">Director's Message</h1>
 						<p class="frst-ltr">IIT Patna is trying its best to serve the nation by all possible means. In this respect, we aim to provide the industry with a technically high-quality employee pool that lends itself to the growth of various reputed organizations and contributes to our nation-building process. IIT Patna seeks to improve upon this goal every year, the latest developments being the addition of new courses and skill sets which has been designed keeping in view of the market demands and mandate of NEP,2020.
 						</p>
 						<a href="message.php">Read More</a>
-					</div>
+					</div> -->
 				</div>
 
 				<div class="grid-mess" style="width: calc(50%-20px); margin: 20px; "></div>

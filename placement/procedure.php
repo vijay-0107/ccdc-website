@@ -1,7 +1,7 @@
 <?php include("header.php"); ?>
 <div class="wrap">
 	<div class="grid-container" style="margin-top: 10px;">
-		<div class="grid-con">
+		<div class="grid-con" style="height:auto;">
 			<div class="grid-block">	
 				<div class="index-intro-text">
 					<h1>Placement Procedure</h1>

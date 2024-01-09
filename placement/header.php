@@ -22,53 +22,55 @@
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	</head>
 	<body>
-	<div class="full-head">
-        <div class="container" style="margin-right: 0; margin-left: 0; width: 100%; max-width: 100%;">
-            <nav class="navbar navbar-expand-lg">
+	<div class="full-head" style="height: calc;">
+        <div class="container" style="margin-right: 0; margin-left: 0; width: 100%; max-width: 100%; height: auto;">
+            <nav class="navbar navbar-expand-lg" style="max-width: 100%;">
                 <a class="navbar-brand mr-auto" href="http://www.iitp.ac.in/placement/">
-                    <div class="college-logo">
+                    <div class="college-logo" style="height: auto;">
                         <img src="images/iitp2.png" alt="Logo">
                     </div>
                 </a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#nav">
                     <i class="fas fa-bars"></i>
                 </button>
-                <div class="collapse navbar-collapse ml-auto" style="float: right; padding-left: 12%;" id="nav">
+                <div class="collapse navbar-collapse ml-auto" style="float: right;" id="nav">
                     <ul class="navbar-nav" style="float:right; margin-right: 0;">
                         <li class="nav-item" style="float: right;"><a class="nav-link" href="index.php"> Home </a></li>
                         <li class="nav-item" style="float: right;">
                             <a class="nav-link">IIT Patna</a>
                             <ul class="submenu">
-                                <li class="nav-item"><a class="nav-link" href="message.php">Message</a></li>
+                                <li class="nav-item"><a class="nav-link" href="message.php">Director's Message</a></li>
+								<li class="nav-item"><a class="nav-link" href="PIC_message.php">PIC Message</a></li>
                                 <li class="nav-item"><a class="nav-link" href="https://academics.iitp.ac.in/">Academics</a></li>
                                 <li class="nav-item"><a class="nav-link" href="tour.php">Campus Tour</a></li>
-                                <li class="nav-item"><a class="nav-link" href="activities.php">Activities</a></li>
+                                <li class="nav-item"><a class="nav-link" href="activities.php">Student Activities</a></li>
                             </ul>
                         </li>
                         <li class="nav-item" style="float: right;">
                             <a class="nav-link" href="procedure.php">Recruiters Corner</a>
                             <ul class="submenu">
-                                <li class="nav-item"><a class="nav-link" href="fac.php">Facilities</a></li>
+                                <li class="nav-item"><a class="nav-link" href="fac.php">CCDC Facilities</a></li>
                                 <li class="nav-item"><a class="nav-link" href="procedure.php">Placement Procedure</a></li>
-                                <li class="nav-item"><a class="nav-link" href="downloads/files/TPC_Policy_for_recruiters.pdf">TPC Policy for recruiters</a></li>
-                                <li class="nav-item"><a class="nav-link" href="Programmes.php">Programmes</a></li>
+                                <li class="nav-item"><a class="nav-link" href="downloads/files/TPC_Policy_for_recruiters.pdf">CCDC Policy for recruiters</a></li>
+                                <li class="nav-item"><a class="nav-link" href="Programmes.php">Academic Programmes and Brochures</a></li>
                             </ul>
                         </li>
 						<li class="nav-item" style="float: right;">
                         	<a class="nav-link" href="events.php">Training Events</a>
 						</li>
-						<li class="nav-item" style="float: right;">
-                        	<a class="nav-link" href="https://aipciits.com/">AIPC</a>
-							<ul class="submenu">
-                                <li class="nav-item"><a class="nav-link" href="https://aipciits.com/guidelines/">AIPC Guidlines</a></li>
-                            </ul>
-						</li>
+						
 						<li class="nav-item" style="float: right;">
 							<a class="nav-link" href="placementsumm.php">Placement Records</a>
 							<ul class="submenu">
                                 <li class="nav-item"><a class="nav-link" href="pastRec.php">Past Recruiters</a></li>
                                 <li class="nav-item"><a class="nav-link" href="placementsumm.php">Placement Statistics</a></li>
-                                <li class="nav-item"><a class="nav-link" href="trainingsumm.php">Internship provider</a></li>
+                                <li class="nav-item"><a class="nav-link" href="trainingsumm.php">Internship recruiters</a></li>
+                            </ul>
+						</li>
+						<li class="nav-item" style="float: right;">
+                        	<a class="nav-link" href="https://aipciits.com/">AIPC</a>
+							<ul class="submenu">
+                                <li class="nav-item"><a class="nav-link" href="https://aipciits.com/guidelines/">AIPC Guidlines</a></li>
                             </ul>
 						</li>
 						<li class="nav-item" style="float: right;">
@@ -78,9 +80,9 @@
                                 <li class="nav-item"><a class="nav-link" href="howtoreach.php">Reaching IITP</a></li>
                             </ul>
 						</li>
-						<li class="nav-item reg" style="float: right;">
+						<!-- <li class="nav-item reg" style="float: right;">
 							<a class="nav-link" href="https://forms.gle/7etN4RzVdqK9gHaT7">Register</a>
-						</li>
+						</li> -->
                     </ul>
                 </div>
             </nav>
