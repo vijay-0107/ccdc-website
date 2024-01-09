@@ -187,9 +187,9 @@
 						<img src="images/slider/p10.jpg" style="width:520px; height:340px; object-fit: 100% 15; border-radius: 15px;"/>
 					</div>
 				</div>
-				<!-- <div class="grid-con-1">
+				<div class="grid-con-1" style="height: 300px;">
 					<div class="grid-50-r" style="width: 40%">
-						<img src="images/slider/p1.png" style="width:520px; height:340px; object-fit: 10% 15; border-radius: 15px; margin-right: 20px;" />
+						<img src="images/slider/p1.png" style="width:480px; height:240px; object-fit: 10% 15; border-radius: 15px; margin-right: 20px;" />
 					</div>
 					<div class="grid-50-l" style="width: 60%">
 						<h1 style="font-size: 30px;">Director's Message</h1>
@@ -197,7 +197,7 @@
 						</p>
 						<a href="message.php">Read More</a>
 					</div>
-				</div> -->
+				</div>
 
 				<div class="grid-mess" style="width: calc(50%-20px); margin: 20px; "></div>
 				

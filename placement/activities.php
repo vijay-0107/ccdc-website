@@ -13,15 +13,7 @@
 
 							Indian Institute of Technology Patna organises various festivals throughout the academic year to inculcate a sense of responsibility and teamwork along with fine-tuning academic and technical skills.
 						</p>
-							<iframe height="500px" width="100%" src="vertical-timeline/events.html" style="border:none;"></iframe>
-
-					<h1>TPC Activities</h1>
-						<h2>Webinars:</h2>
-							<p>
-								<iframe height="800px" width="100%" src="vertical-timeline/tpc_events.html" style="border:none;"></iframe>
-								<h2>News:</h2>
-							</p>
-							<iframe height="500px" width="100%" src="vertical-timeline/tpc_news.html" style="border:none;"></iframe>
+							<iframe height="800px" width="100%" src="vertical-timeline/events.html" style="border:none;"></iframe>
 				</div>
 			</div>
 		</div>

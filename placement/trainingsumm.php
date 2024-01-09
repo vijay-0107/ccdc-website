@@ -4,8 +4,6 @@
 		<div class="grid-con-2" style="height: auto;">
 			<div class="grid-block">	
 				<div class="index-intro-text">
-
-					<br><br>
 					<b>FOREIGN UNIVERSITIES:</b>
 					<ul style="font-family:'Times New Roman', Times, serif;font-size:17px;list-style-type:disc">
 						<li>Georgia State University, USA</li>
