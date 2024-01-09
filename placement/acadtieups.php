@@ -1,7 +1,7 @@
 <?php include("header.php"); ?>
 <div class="wrap">
 	<div class="grid-container">
-		<div class="grid-con-2" style="height: 750px">
+		<div class="grid-con-2" style="height: fit">
 			<div class="grid-block">
 				<div class="index-intro-text">
 					<h1 style="font-weight: bold; font-size:25px;">Academic Tie Ups</h1>
@@ -137,6 +137,9 @@
 				</div>
 			</div>
 		</div>
+		
+	</div>
+	<div class="grid-container">
 		<div class="grid-con-2">
 			<?php include("panel.php"); ?>
 		</div>

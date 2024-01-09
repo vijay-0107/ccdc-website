@@ -1,178 +1,340 @@
 <?php include("header.php"); ?>
-<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
 <div class="wrap">
-	<div class="grid-container">
-		<div class="grid-con-2" style="height: auto;">
-			<div class="grid-block">
-				<!--
-				<div class="index-intro-text">
-					<h1>Placements (2013)</h1>
-					<script type="text/javascript">
-					  google.load("visualization", "1", {packages:["table"]});
-					  google.setOnLoadCallback(drawTable);
+	<!-- Chart 1: Average Data -->
+	<div class="chart-container">
+        <div style="margin: 20px;">
+            <h2>Average Packages</h2>
+            <canvas id="chart1" width="680" height="340"></canvas>
+        </div>
+    <!-- </div> -->
 
-					  function drawTable() {
-						var data = new google.visualization.DataTable();
-						data.addColumn('string', '');
-						data.addColumn('string', 'CSE');
-						data.addColumn('string', 'EE');
-						data.addColumn('string', 'ME');
-						data.addColumn('string', 'TOTAL/AVG');
-						data.addRows([
-						  ['Number of students registered', '35','30','33','98' ],
-						  ['Number of offers given', '27','14','28','69'  ],
-						  ['Number of placed students', '26','13','22','61'],
-						  ['Average package',  '11.58 lacs','6.66 lacs','6.53 lacs','8.71 lacs' ]
-						]);
+    <!-- Chart 2: Internships Data -->
+    <!-- <div class="chart-container"> -->
+        <div style="margin: 20px;">
+            <h2>Internships</h2>
+            <canvas id="chart2" width="680" height="340"></canvas>
+        </div>
+    <!-- </div> -->
 
-						var table = new google.visualization.Table(document.getElementById('table_div'));
+    <!-- Chart 3: Additional Chart -->
+    <!-- <div class="chart-container"> -->
+        <div style="margin: 20px;">
+            <h2>Companies and Offers</h2>
+            <canvas id="chart3" width="680" height="340"></canvas>
+        </div>
+    <!-- </div> -->
 
-						table.draw(data);
-					  }
-					</script>
+    <!-- Chart 4: AVG STIPEND Data -->
+    <!-- <div class="chart-container"> -->
+        <div style="margin: 20px;">
+            <h2>AVG STIPEND</h2>
+            <canvas id="chart4" width="680" height="340"></canvas>
+        </div>
+    <!-- </div> -->
 
-					<div id="table_div" style="width: 100%; height: auto;"></div>
-
-					<?php /*<script type="text/javascript">
-					  google.load("visualization", "1", {packages:["corechart"]});
-					  google.setOnLoadCallback(drawChart);
-					  function drawChart() {
-
-						var data = google.visualization.arrayToDataTable([
-						  ['Category', 'No. of students'],
-						  ['Students Placed',  26],
-						  ['Unplaced Students',  9]
-						]);
-
-						var options = {
-						  title: 'CSE Btech Final Year Placements'
-						};
-
-						var chart = new google.visualization.PieChart(document.getElementById('piechart5'));
-
-						chart.draw(data, options);
-					  }
-					</script>
-					<div id="piechart5" style="float: left;width: 33%; height: 300px;"></div>
-					<script type="text/javascript">
-					  google.load("visualization", "1", {packages:["corechart"]});
-					  google.setOnLoadCallback(drawChart);
-					  function drawChart() {
-
-						var data = google.visualization.arrayToDataTable([
-						  ['Category', 'No. of students'],
-						  ['Students Placed',  13],
-						  ['Unplaced Students',  15]
-						]);
-
-						var options = {
-						  title: 'EE Btech Final Year Placements'
-						};
-
-						var chart = new google.visualization.PieChart(document.getElementById('piechart6'));
-
-						chart.draw(data, options);
-					  }
-					</script>
-					<div id="piechart6" style="float: left;width: 33%; height: 300px;"></div>
-					<script type="text/javascript">
-					  google.load("visualization", "1", {packages:["corechart"]});
-					  google.setOnLoadCallback(drawChart);
-					  function drawChart() {
-
-						var data = google.visualization.arrayToDataTable([
-						  ['Category', 'No. of students'],
-						  ['Students Placed',  22],
-						  ['Unplaced Students',  11]
-						]);
-
-						var options = {
-						  title: 'ME Btech Final Year Placements'
-						};
-
-						var chart = new google.visualization.PieChart(document.getElementById('piechart7'));
-
-						chart.draw(data, options);
-					  }
-					</script>
-					<div id="piechart7" style="float: left;width: 33%; height: 300px;"></div>*/ ?>
-
-
-				</div>
-				-->
-				
-				<div class="index-intro-text" >
-					<!--
-					<strong>Training and placement cell (TPC) (प्रशिक्षण एवं स्थानन प्रकोष्ठ) </strong> of IIT Patna aims at building a strong interface between the corporate world and the Institute. The Cell’s initiatives include continuous interaction with the prospective recruiters to understand their requirements of knowledge and skill sets and to prepare our students accordingly. TPC works in close co-ordination with the student placement committee comprising of student coordinators chosen from various departments. The institute’s excellent infrastructure supports each and every stage of the placement process in arranging pre-placement talks, written test, group discussion and interviews while assisting our guests in the best possible manner.<br /><br />
-					
-					This is the 8<sup>th</sup> Placement Season for IIT Patna and we are moving forward setting new benchmark with each passing year. We have reached a milestone of 210 offers for the session 2018-19. 114 B.Tech students have been placed in this session and overall 158 students have grabbed the opportunities from various sectors for different profiles. Four students have bagged International offers from FUJIFILM Software Co. Ltd, Japan , Google, Poland and Shezar web Technologyies Pvt Ltd.<br /><br />
-					
-					The highest package of 38.00 Lakhs per annum has been offered by Microsoft, followed by DE Shaw  Arcesium and CodeNation which has offered 33.50, 32.50 Lacs and 31 Lacs respectively . Apart from this, students have received tempting offers from Samsung, Mathworks, Goldman Sachs, MakeMyTrip, Sapient, Addverb, Optum, Cadence, Force Motors, ZS Associates, TCS R&D, Strand Life Science, LTI, LinkedIn, Saavn, Future First, Cognum, L&T ECC, Uber, L&T Heavy Engineering, Infosys, Wipro, Capgemini, Aakash Institute and many more. Among the PSUs, ISRO and IOCL have visited the campus and offered job to the students.<br /><br />
-					
-					We have also seen a rise in the trend of PPO. This year around 30 students have grabbed PPOs from their internship. The pre-final year B.Tech and M.Tech students have received summer internship offers various companies in India and abroad. Few of the names are Intel, STMicroelectronics, Webstaff, Amazon, Mathworks, Optum, ezDI, TCS Research, etc.<br /><br />
-					
-					TPC is also catering to the needs and interests of the students who are willing to go for UPSC and GATE preparations. It conducted workshops related to Career in Civil Services and GATE preparations. TPC has also conducted the workshop on “interview preparation” in association with Thinkers & Fillers, Patna this year.  In addition, TPC has also successfully organized “Japanese Language Workshop” in association with Websatff, a Japanese consultant.<br /><br />
-					
-					The motivated team of Training and Placement Cell is actively following Kaizen-the Japanese word for "improvement", in all spheres.<br /> 
-					-->
-										
-					<div> 
-						<!--	<h1>Placements (2017)</h1><br/> -->
-							<ul style="padding-left:240px; margin-left: auto; margin-right: auto;" >
-							<br /><a href="downloads/TPC-Placement_and_Internship_Report-AY_2021-22.pdf" alt=""><img src="images/placement/Placement_Report_AY_2021-2022.png" width="800" style="margin-left: auto; margin-right: auto;"/></a><br />
-							<br /><img src="images/placement/2021/IITP_Placement_2021_header.png" width="800" style="margin-left: auto; margin-right: auto;"/><br />
-							<br /><img src="images/placement/2021/IITP_Placement_2021_1.jpg" width="800" style="margin-left: auto; margin-right: auto;"/><br />
-							<br /><img src="images/placement/2021/IITP_Placement_2021_2.jpg" width="800" style="margin-left: auto; margin-right: auto;"/><br />
-							<br /><img src="images/placement/2021/IITP_Placement_2021_3.jpg" width="800" style="margin-left: auto; margin-right: auto;"/><br />
-							<br /><img src="images/placement/2021/IITP_Placement_2021_4.jpg" width="800" style="margin-left: auto; margin-right: auto;"/><br />
-							
-							
-							
-							
-						<!--	<figure>
-								<br /><img src="images/placement/2017/banner-7.png" width="800" style=""/><br />
-								<figcaption>Note: Civil Engineering and Chemical Science & Technology branch of B.Tech start in the year 2013.</figcaption>
-							</figure>
-						-->
-						
-							<br /><img src="images/placement/2021/IITP_Placement_2021_5.jpg" width="800" style="margin-left: auto; margin-right: auto;"/><br />
-							
-							<br /><img src="images/placement/2021/IITP_Placement_2021_6.jpg" width="800" style="margin-left: auto; margin-right: auto;"/><br />
-						<!--	<br /><a href="images/placement/Placement_Related_file_IITP.pdf" alt=""><span style="color:blue;">Placement data for the last 5 years</span></a><br />  -->
-							</ul>
-						</div>
-					<!--
-					<div>
-							<h1>Placements (2016)</h1><br/>
-							<ul style="padding-left:50px;">
-							<li><a href="images/placement/TPC Data for Web 2016.pdf"><h2>Click Here to View Placement Data 2016</h2></a></li>
-							</ul>
-						</div>
-
-						<div>
-							<h1>Placements (2015)</h1><br/>
-							<img src="images/placement/placement_2015.png" width="500" style=""/>
-							<img src="images/placement/placement_mtech_2015.png" width="300"/>
-						</div>
-						<div>
-							<h1>Placements (2014)</h1><br/>
-							<img src="images/placement/placement_2014.png" width="500" style=""/>
-							<img src="images/placement/placement_mtech_2014.png" width="300"/>
-						</div>
-						<div>
-							<h1>Placements (2013)</h1><br/>
-							<img src="images/placement/placement_2013.png" width="600" style=""/>
-						</div>
-						<!--div>
-							<h1>Placements (2012)</h1><br/>
-							<img src="images/placement/placementsummary2012.png" width="700"/>
-						</div-->
-				</div>
-			</div>
-		</div>
-		<div class="grid-con-2">
-			<?php include("panel.php"); ?>
-		</div>
-	</div>
+    <!-- Chart 5: Pie Chart -->
+    <!-- <div class="chart-container"> -->
+        <div style="margin: 20px;">
+            <h2>Recruitment Sectors</h2>
+            <div id="pieChartContainer" style="width: 1200px; height: 1200px;"></div>
+        </div>
+    </div>
 </div>
+<!-- <script type="text/javascript" src="https://www.google.com/jsapi"></script>-->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Include AnyChart library -->
+<script src="https://cdn.anychart.com/releases/8.10.0/js/anychart-bundle.min.js"></script>
+<style>
+	/* Apply basic CSS styles */
+	.chart-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 20px;
+	}
+	.chart {
+		width: 48%; /* Set the width of each chart */
+		margin-bottom: 20px;
+	}
+
+</style>
+
+<script>
+        // Data for Chart 1 (Average Data)
+        var data1 = {
+            labels: ['2019-20', '2020-21', '2021-22', '2022-23'],
+            datasets: [
+                {
+                    label: 'MSC',
+                    data: [6.13, 6.97, 6.86, 9.225],
+                    backgroundColor: 'rgba(54, 162, 235, 0.5)', // Blue color
+                    borderRadius: 5, // Set border radius for rounded top corners
+                    borderWidth: 0, // Remove border for the bars
+                },
+                {
+                    label: 'MTECH',
+                    data: [12.71, 12.22, 14.99, 15.77],
+                    backgroundColor: 'rgba(255, 99, 132, 0.5)', // Pink color
+                    borderRadius: 5, // Set border radius for rounded top corners
+                },
+                {
+                    label: 'BTECH',
+                    data: [14.76, 17.13, 28.86, 24.56],
+                    backgroundColor: 'rgba(75, 192, 192, 0.5)', // Teal color
+                    borderRadius: 5, // Set border radius for rounded top corners
+                },
+            ],
+        };
+
+
+        // Configuration for Chart 1
+        var config1 = {
+            type: 'bar',
+            data: data1,
+            options: {
+                plugins: {
+                    legend: {
+                        display: true,
+                    },
+                },
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        grid: {
+                            display: false, // Remove x-axis grid lines
+                        },
+                    },
+                    y: {
+                        beginAtZero: true,
+                        grid: {
+                            display: true, // Display y-axis grid lines
+                        },
+                        ticks: {
+                            stepSize: 7.5, // Change the step size for y-axis
+                        },
+                    },
+                },
+            },
+        };
+
+        // Data for Chart 2 (Internships Data)
+        var data2 = {
+            labels: ['2019-20', '2020-21', '2021-22', '2022-23'],
+            datasets: [
+                {
+                    label: 'Total companies visited',
+                    data: [23, 27, 38, 53],
+                    backgroundColor: 'rgba(54, 162, 235, 0.5)', // Blue color
+                    borderRadius: 5, // Set border radius for rounded top corners
+                    borderWidth: 0, // Remove border for the bars
+                },
+                {
+                    label: 'Total offers',
+                    data: [124, 127, 154, 118],
+                    backgroundColor: 'rgba(255, 99, 132, 0.5)', // Pink color
+                    borderRadius: 5, // Set border radius for rounded top corners
+                },
+            ],
+        };
+
+        // Configuration for Chart 2
+        var config2 = {
+            type: 'bar',
+            data: data2,
+            options: {
+                plugins: {
+                    legend: {
+                        display: true,
+                    },
+                },
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        grid: {
+                            display: false, // Remove x-axis grid lines
+                        },
+                    },
+                    y: {
+                        beginAtZero: true,
+                        grid: {
+                            display: true, // Display y-axis grid lines
+                        },
+                        ticks: {
+                            stepSize: 40, // Change the step size for y-axis
+                        },
+                    },
+                },
+            },
+        };
+
+        // Data for Chart 3 (Additional Chart)
+        var data3 = {
+            labels: ['2019-20', '2020-21', '2021-22', '2022-23'],
+            datasets: [
+                {
+                    label: 'Total companies visited',
+                    data: [106, 125, 154, 162],
+                    backgroundColor: 'rgba(54, 162, 235, 0.5)', // Blue color
+                    borderRadius: 5, // Set border radius for rounded top corners
+                    borderWidth: 0, // Remove border for the bars
+                },
+                {
+                    label: 'Total offers',
+                    data: [202, 239, 412, 413],
+                    backgroundColor: 'rgba(255, 99, 132, 0.5)', // Pink color
+                    borderRadius: 5, // Set border radius for rounded top corners
+                },
+            ],
+        };
+
+        // Configuration for Chart 3
+        var config3 = {
+            type: 'bar',
+            data: data3,
+            options: {
+                plugins: {
+                    legend: {
+                        display: true,
+                    },
+                },
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        grid: {
+                            display: false, // Remove x-axis grid lines
+                        },
+                    },
+                    y: {
+                        beginAtZero: true,
+                        grid: {
+                            display: true, // Display y-axis grid lines
+                        },
+                        ticks: {
+                            stepSize: 150, // Change the step size for y-axis
+                        },
+                    },
+                },
+            },
+        };
+
+        // Data for Chart 4 (AVG STIPEND Data)
+    var data4 = {
+        labels: ['2020-21', '2021-22', '2022-23'],
+        datasets: [
+            {
+                label: 'MTECH',
+                data: [26.2, 27.8, 41.839],
+                backgroundColor: 'rgba(54, 162, 235, 0.5)', // Blue color
+                borderRadius: 5, // Set border radius for rounded top corners
+                borderWidth: 0, // Remove border for the bars
+            },
+            {
+                label: 'BTECH',
+                data: [55.2, 68.6, 47.156],
+                backgroundColor: 'rgba(255, 99, 132, 0.5)', // Pink color
+                borderRadius: 5, // Set border radius for rounded top corners
+            },
+        ],
+    };
+
+    // Configuration for Chart 4
+    var config4 = {
+        type: 'bar',
+        data: data4,
+        options: {
+            plugins: {
+                legend: {
+                    display: true,
+                },
+            },
+            scales: {
+                x: {
+                    beginAtZero: true,
+                    grid: {
+                        display: false, // Remove x-axis grid lines
+                    },
+                },
+                y: {
+                    beginAtZero: true,
+                    grid: {
+                        display: true, // Display y-axis grid lines
+                    },
+                    ticks: {
+                        stepSize: 10, // Change the step size for y-axis
+                    },
+                },
+            },
+        },
+    };
+
+
+
+
+        // Create Chart 4
+        var ctx4 = document.getElementById('chart4').getContext('2d');
+        var myChart4 = new Chart(ctx4, config4);
+
+        // Create Chart 1
+        var ctx1 = document.getElementById('chart1').getContext('2d');
+        var myChart1 = new Chart(ctx1, config1);
+
+        // Create Chart 2
+        var ctx2 = document.getElementById('chart2').getContext('2d');
+        var myChart2 = new Chart(ctx2, config2);
+
+        // Create Chart 3
+        var ctx3 = document.getElementById('chart3').getContext('2d');
+        var myChart3 = new Chart(ctx3, config3);
+
+        // Data for Pie Chart
+        var pieData = [
+            { x: "IT", value: 35.90 },
+            { x: "Finance", value: 4.62 },
+            { x: "Fintech", value: 2.56 },
+            { x: "Analytics/Consulting", value: 13.33 },
+            { x: "Core", value: 7.18 },
+            { x: "E-commerce", value: 4.62 },
+            { x: "Edtech", value: 6.15 },
+            { x: "Manufacturing", value: 8.21 },
+            { x: "Teaching & Research", value: 4.62 },
+            { x: "Research & Development", value: 1.03 },
+            { x: "Others", value: 12.82 },
+        ];
+
+        // Create Pie Chart
+        anychart.onDocumentReady(function () {
+            var pieChart = anychart.pie(pieData);
+
+            // Set the position of labels outside the pie chart
+            pieChart.labels().position("outside");
+
+            // Configure connectors
+            pieChart.connectorStroke({ color: "black", thickness: 1, dash: "2 2" });
+            // chart.connectorLength(1); 
+            // Disable the legend
+            pieChart.legend(false);
+
+            // Set the chart title
+            pieChart.title("Recruitment Sectors");
+
+            // Customize label color and font
+            pieChart.labels().fontColor("black"); // Change label color to black
+            pieChart.labels().fontSize(12); // Change label font size to 10 pixels
+
+            // Enable percentage display with custom formatting
+            pieChart.labels().format("{%x} ({%value}%)");
+    // Adjust the margin between the chart and its title
+    //         var marsize = 0;
+    // pieChart.margin(marsize, marsize, marsize, marsize); // Use appropriate margin values (top, right, bottom, left)
+    //     // Adjust the margin of the chart title
+    //     pieChart.title().margin(0, 0, 0, 0); // Use appropriate margin values (top, right, bottom, left)
+
+
+            // Set container id for the pie chart and initiate chart drawing
+            pieChart.container("pieChartContainer").draw();
+        });
+    </script>
+
 <?php include("footer.php"); ?>

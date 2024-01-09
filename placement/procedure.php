@@ -1,6 +1,6 @@
 <?php include("header.php"); ?>
 <div class="wrap">
-	<div class="grid-container" style="margin-top: 190px;">
+	<div class="grid-container" style="margin-top: 10px;">
 		<div class="grid-con">
 			<div class="grid-block">	
 				<div class="index-intro-text">

@@ -64,24 +64,18 @@
 
 	</head>
 	<body>
-		<!-- <div class="top"></div> -->
 		<div class="full-head">
 			<div class="head-left">
-				<!-- <div class="top-1"></div> -->
 				<a href="http://www.iitp.ac.in/placement/">
 					<div class="college-logo">
 						<img src="images/iitp2.png" style="padding:0px 0px 0px 0px; height: 90%;"/>
-						<!-- <div class="college-text" style="padding-left:22px;padding-top:18px;"> -->
-							<!-- <span style="font-size:25pt;">Centre for Career Development</span><br /><span style="font-size:17pt;">कैरियर विकास केंद्र</span><br /> -->
-							<!-- <h4>Indian Institute of Technology Patna<br /><span style="font-size:15pt;">भारतीय प्रौद्योगिकी संस्थान पटना</span></h4> -->
-						<!-- </div> -->
 					</div>
 				</a>
 			</div>
 			<div class="head-mid">	
 				<div class="head-mid-1">
-					<div class="mobile-menu-toggle">
-						<i class="fas fa-bars"></i> <!-- You can use any icon or text for your toggle button -->
+				<div class="mobile-menu-toggle">
+						<i class="fas fa-bars" style="size: auto;"></i>
 					</div>
 					<div class="navbar-collapse scrollspy smooth-scroll collapse" id="nav" style="padding:0px;">
 						<ul>
@@ -95,40 +89,24 @@
 									<li><a href="activities.php">Activities</a></li>
 								</ul>
 							</li>
-							<li><a href="procedure.php">For Recruiters</a>
+							<li><a href="procedure.php">Recruiters Corner</a>
 							<ul>
 								<li><a href="fac.php">Facilities</a></li>
-								<!--<li><a href="demographics.php">Demographics</a></li> -->
 								<li><a href="procedure.php">Placement Procedure</a></li>
-							<!--	<li><a href="downloads.php">Downloads</a></li>-->
 								<li><a href="downloads/files/TPC_Policy_for_recruiters.pdf">TPC Policy for recruiters</a></li>
 								<li><a href="Programmes.php">Programmes</a></li>
-							<!--	<li><a href="studentsprofile.php">Student Profiles</a></li>	-->
 							</ul>
 							</li>
-							<!-- <li><a href="internships.php">Alumni</a>	-->
-							<!--<li><a href="#">Alumni</a>
-							<ul>
-								<li><a href="downloads.php">Downloads</a></li>
-								<li><a href="demo.php">Demographics</a></li>
-								<li><a href="fac.php">Facilities</a></li>
-								<li><a href="internships.php">Student Profiles</a></li>
-							</ul>
-							</li>-->
+							
+							<li><a href="events.php">Training Events</a>
 							<li><a href="https://www.iitp.ac.in/acad/">Academics</a>
-							<!--
-							<ul>
-								<li><a href="http://www.iitp.ac.in/index.php/academics/programmes/undergraduate/undergraduate.html">Departments</a></li>
-								<li><a href="http://www.iitp.ac.in/index.php/academics/programmes/undergraduate/course-curriculum.html">Course Curriculum</a></li>
-								<li><a href="http://www.iitp.ac.in/index.php/academics/programmes/undergraduate/syllabus.html">Syllabus</a></li>
-							</ul>
-							-->
+							
+							
 							</li>
-				
-							<li><a href="pastRec.php">Placement</a>
+							<li><a href="pastRec.php">Placement Records</a>
 				
 							<ul>
-								<li><a href="pastRec.php">Recruiters</a></li>
+								<li><a href="pastRec.php">Past Recruiters</a></li>
 								<li><a href="placementsumm.php">Placement Statistics</a></li>
 								<li><a href="trainingsumm.php">Internship provider</a></li>
 							</ul>
@@ -136,8 +114,7 @@
 							<li><a href="contactus.php">Contact Us</a>
 							<ul>
 								<li><a href="contactus.php">Representatives</a></li>
-								<!-- <li><a href="howtoreach.php">Reaching IITP</a></li> -->
-								<!-- <li><a href="hotels.php">Nearby Hotels</a></li> -->
+								<li><a href="howtoreach.php">Reaching IITP</a></li>
 							</ul>
 							</li>
 						</ul>
@@ -147,13 +124,10 @@
 				<div class="news-container">
 						<a href="https://forms.gle/FdDpWF3dgKx9iQLB6" target="_blank">
 							<div class="title">
-								<!-- <div class="butn" style="width:fit-content; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;">
-									<p><a href="https://forms.gle/FdDpWF3dgKx9iQLB6" target="_blank"><button id='registr' class='btn-reg'><div class="blink_me" style="font-size: 15px;">REGISTER</div></button></a></p>
-								</div> -->
 								Register
 							</div>
 						</a>
-						<div class="hwrap" style="background: none"><div class="hmove">
+						<div class="hwrap"><div class="hmove">
 							<div class="hitem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 							<div class="hitem">Aliquam consequat varius consequat.</div>
 							<div class="hitem">Fusce dapibus turpis vel nisi malesuada sollicitudin.</div>

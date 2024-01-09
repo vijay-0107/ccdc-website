@@ -1,4 +1,3 @@
-			<div class="side-bar">
 				<div class="grid-50-l" style="width : 50%;">
 					<div class="panel">
 						<!--<div class="panel-head ">
@@ -34,7 +33,7 @@
 							-->
 							
 							<p id="rmessage"><label for='registr'><snap style="font-weight: 100; font-family:'Times New Roman', Times, serif; font-size: 20px;">Kindly fill-in the form to start the process to recruit students for summer internships
-	and full time role at IIT Patna in academic year 2022-23.</snap></label><a href="https://forms.gle/FdDpWF3dgKx9iQLB6" target="_blank"><button id='registr' class='btn-reg'><div class="blink_me">REGISTER</div></button></a></p>
+	and full time role at IIT Patna in academic year 2022-23.</snap></label><a href="https://forms.gle/7etN4RzVdqK9gHaT7" target="_blank"><button id='registr' class='btn-reg'><div class="blink_me">REGISTER</div></button></a></p>
 							
 							
 						</div>
@@ -71,9 +70,9 @@
 						</div>
 						<div class="panel-content">
 							<p><a href="downloads/files/TPC_IITP_past-recruiters_2022.pdf">Past Recruiters <img src="downloads/new.gif" /></a></p>
-							<p><a href="downloads/Placement-Brochure-2022-23_IIT-Patna.pdf">Placements Brochure 2022-23<img src="downloads/new.gif" /></a></p>
+							<p><a href="downloads/Placement Brochure 23-24.pdf">Placements Brochure 2022-23<img src="downloads/new.gif" /></a></p>
 							<p><a href="Programmes.php">Branch-wise Brochure 2022-23</a></p>
 						</div>
 				</div>
 				</div>
-			</div>
+			
