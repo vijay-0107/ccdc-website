@@ -11,6 +11,7 @@
 		<script type="text/javascript" src="slick/slick.min.js"></script>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$('.home-carousel').slick({
@@ -26,17 +27,17 @@
         <div class="container" style="margin-right: 0; margin-left: 0; width: 100%; max-width: 100%; height: auto;">
             <nav class="navbar navbar-expand-lg" style="max-width: 100%;">
                 <a class="navbar-brand mr-auto" href="http://www.iitp.ac.in/placement/">
-                    <div class="college-logo" style="height: auto;">
+                    <div class="college-logo">
                         <img src="images/iitp2.png" alt="Logo">
                     </div>
                 </a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#nav">
                     <i class="fas fa-bars"></i>
                 </button>
-                <div class="collapse navbar-collapse ml-auto" style="float: right;" id="nav">
-                    <ul class="navbar-nav" style="float:right; margin-right: 0;">
-                        <li class="nav-item" style="float: right;"><a class="nav-link" href="index.php"> Home </a></li>
-                        <li class="nav-item" style="float: right;">
+                <div class="collapse navbar-collapse ml-auto"   id="nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item" ><a class="nav-link" href="index.php"> Home </a></li>
+                        <li class="nav-item"  >
                             <a class="nav-link">IIT Patna</a>
                             <ul class="submenu">
                                 <li class="nav-item"><a class="nav-link" href="message.php">Director's Message</a></li>
@@ -46,7 +47,7 @@
                                 <li class="nav-item"><a class="nav-link" href="activities.php">Student Activities</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item" style="float: right;">
+                        <li class="nav-item"  >
                             <a class="nav-link" href="procedure.php">Recruiters Corner</a>
                             <ul class="submenu">
                                 <li class="nav-item"><a class="nav-link" href="fac.php">CCDC Facilities</a></li>
@@ -55,11 +56,11 @@
                                 <li class="nav-item"><a class="nav-link" href="Programmes.php">Academic Programmes and Brochures</a></li>
                             </ul>
                         </li>
-						<li class="nav-item" style="float: right;">
+						<li class="nav-item"  >
                         	<a class="nav-link" href="events.php">Training Events</a>
 						</li>
-						
-						<li class="nav-item" style="float: right;">
+
+						<li class="nav-item"  >
 							<a class="nav-link" href="placementsumm.php">Placement Records</a>
 							<ul class="submenu">
                                 <li class="nav-item"><a class="nav-link" href="pastRec.php">Past Recruiters</a></li>
@@ -67,20 +68,20 @@
                                 <li class="nav-item"><a class="nav-link" href="trainingsumm.php">Internship recruiters</a></li>
                             </ul>
 						</li>
-						<li class="nav-item" style="float: right;">
+						<li class="nav-item"  >
                         	<a class="nav-link" href="https://aipciits.com/">AIPC</a>
 							<ul class="submenu">
                                 <li class="nav-item"><a class="nav-link" href="https://aipciits.com/guidelines/">AIPC Guidlines</a></li>
                             </ul>
 						</li>
-						<li class="nav-item" style="float: right;">
+						<li class="nav-item"  >
 							<a class="nav-link" href="contactus.php">Contact Us</a>
 							<ul class="submenu">
                                 <li class="nav-item"><a class="nav-link" href="contactus.php">Representatives</a></li>
                                 <li class="nav-item"><a class="nav-link" href="howtoreach.php">Reaching IITP</a></li>
                             </ul>
 						</li>
-						<!-- <li class="nav-item reg" style="float: right;">
+						<!-- <li class="nav-item reg"  >
 							<a class="nav-link" href="https://forms.gle/7etN4RzVdqK9gHaT7">Register</a>
 						</li> -->
                     </ul>
@@ -106,7 +107,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="head-mid">	
+			<div class="head-mid">
 				<div class="head-mid-1" style="box-shadow: 0px 1px 2px 3px #024e86;  background-color: #041166;	">
 					<div class="mobile-menu-toggle">
 						<i class="fas fa-bars" style="size: auto;"></i>
@@ -131,10 +132,10 @@
 								<li><a href="downloads.php">Downloads</a></li>
 								<li><a href="downloads/files/TPC_Policy_for_recruiters.pdf">TPC Policy for recruiters</a></li>
 								<li><a href="Programmes.php">Programmes</a></li>
-								<li><a href="studentsprofile.php">Student Profiles</a></li>	
+								<li><a href="studentsprofile.php">Student Profiles</a></li>
 							</ul>
 							</li>
-							<li><a href="internships.php">Alumni</a>	
+							<li><a href="internships.php">Alumni</a>
 							<li><a href="#">Alumni</a>
 							<ul>
 								<li><a href="downloads.php">Downloads</a></li>
@@ -145,10 +146,10 @@
 							</li>
 							<li><a href="events.php">Training Events</a>
 							<li><a href="https://www.iitp.ac.in/acad/">Academics</a>
-							
+
 							</li>
 							<li><a href="pastRec.php">Placement Records</a>
-				
+
 							<ul>
 								<li><a href="pastRec.php">Past Recruiters</a></li>
 								<li><a href="placementsumm.php">Placement Statistics</a></li>
@@ -184,7 +185,7 @@
 							<li>
 								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam!
 							</li>
-							
+
 							<li>
 								Lorem ipsum dolor sit
 							</li>
@@ -192,7 +193,7 @@
 							<li>
 								Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam!
 							</li>
-						</ul> 
+						</ul>
 						<div class="butn" style="width:fit-content; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;">
 							<p><a href="https://forms.gle/FdDpWF3dgKx9iQLB6" target="_blank"><button id='registr' class='btn-reg'><div class="blink_me" style="font-size: 15px;">REGISTER</div></button></a></p>
 						</div>

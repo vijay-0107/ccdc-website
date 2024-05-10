@@ -13,7 +13,7 @@ body
 p, h1
 {
     color: #000;
-    font-family:'Times New Roman', Times, serif; 
+    font-family:'Times New Roman', Times, serif;
     font-size: 18px;
     text-align:justify;
 }
@@ -63,7 +63,7 @@ textarea:focus{
     alt dark color: #2E249D; ...
     2967AC
     17232B
-    
+
 */
 
 /*HEADER*/
@@ -102,35 +102,23 @@ a:hover
 }
 h2
 {
-    font-family:'Times New Roman', Times, serif; 
+    font-family:'Times New Roman', Times, serif;
     font-weight: normal;
 }
 
-/* header */
-
-/* .college-logo
-{
-    display: inline-block;
-    float: left;
-}
-.college-logo img
-{
-    width: 80px;
-    height: auto;
-} */
 .college-text
 {
     display: inline-block;
 	padding-top: 5px;
     vertical-align: top;
-    font-family:'Times New Roman', Times, serif; 
+    font-family:'Times New Roman', Times, serif;
     color: black;
 }
 .college-text h1
 {
     font-size: 30px;
 	/* font-family: Georgia,serif; */
-    font-family:'Times New Roman', Times, serif; 
+    font-family:'Times New Roman', Times, serif;
     margin-top: 0;
 	font-variant: small-caps;
 }
@@ -282,6 +270,151 @@ h2
     width: 8%;
     height: auto;
 }
+.hero-text>div {
+    width: 100%;
+    height: 720px;
+}
+
+.hero-text>div>div {
+    width: 100%;
+    padding-top: 350px;
+    position: relative;
+}
+
+.hero-text>div>div>h1 {
+    font-size: 60px;
+    font-weight: normal;
+    color: white;
+}
+
+.mySlides{
+    opacity: 1;
+}
+
+.mySlides > img {
+    border: 2px solid saddlebrown;
+    height: 350px;
+}
+
+.pannel-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pannel-container  > div {
+    width: 48%;
+    height: auto;
+}
+
+.panel-content{
+    padding: 20px;
+}
+
+.panel-content > button {
+    margin-bottom: 24px;
+}
+
+.info-card {
+    display:flex;
+    flex-direction: row;
+    float:right;
+}
+
+.info-card > img{
+    margin: 10px;
+    width: 30%;
+    aspect-ratio: 16/9;
+    padding: 10px 10px 10px 10px;
+}
+
+.info-card-2{
+    display: flex;
+    flex-direction: row-reverse;
+    float: right;
+}
+
+.info-card-2 > img{
+    margin: 10px;
+    width: 30%;
+    aspect-ratio: 16/9;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.snap{
+    width: 97%;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* CSS rules for phone screens */
+    .college-logo{
+        display: none;
+    }
+
+    .mySlides>img {
+        border: 2px solid saddlebrown;
+        height: 200px;
+    }
+
+    .hero-text>div {
+        width: 100%;
+        height: 720px;
+    }
+
+    .hero-text>div>div {
+        width: 100%;
+        padding-top: 330px;
+        position: relative;
+    }
+
+    .hero-text > div > div > h1 {
+        width: 90%;
+        text-justify: auto;
+        position: relative;
+        font-size: 34px;
+        color: white;
+    }
+
+    .pannel-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .pannel-container > div {
+        width: 100%;
+        height: auto;
+    }
+
+    .panel-content > a {
+        border: 2px solid red;
+        padding-bottom: 30px;
+    }
+
+    .info-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-card-2{
+        flex-direction: column;
+    }
+    .info-card-2 > img {
+        height: 300px;
+        width: 100%;
+    }
+    .info-card > img {
+        height: 300px;
+        width: 100%;
+    }
+
+}
 
 .college-logo img {
     width: 100%;
@@ -315,6 +448,7 @@ h2
 }
 
 .nav-item:hover {
+    padding: 0.125rem 0.25rem;
     background-color: #55aae3;
 }
 
@@ -331,7 +465,7 @@ h2
 
 .navbar-nav a {
     text-decoration: none;
-    font-family:'Times New Roman', Times, serif; 
+    font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     color: #ffffff;
 }
@@ -354,7 +488,7 @@ h2
     position: absolute;
     background-color: #3041b5;
     border: 1px solid #fff;
-    border-radius: 0 0 8px 8px;
+    border-radius: 8px 8px 8px 8px;
     z-index: 1;
 }
 
@@ -368,17 +502,19 @@ h2
 }
 
 .submenu a:hover {
+    padding: 0.125rem 0.25rem;
     background-color: #55aae3;
+    border-radius: 0.25rem;
 }
 
 /* #nav
-{	
+{
 	float:right;
 }
 #nav a
 {
     text-decoration: none;
-    font-family:'Times New Roman', Times, serif; 
+    font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     color: #666;
 }
@@ -428,7 +564,7 @@ h2
 
 #nav > ul > li  a
 {
-    font-family:'Times New Roman', Times, serif; 
+    font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     color: white;
 	display: block;
@@ -438,7 +574,7 @@ h2
 }
 #nav > ul > li  p
 {
-    font-family:'Times New Roman', Times, serif; 
+    font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     color: black;
 	display: block;
@@ -448,7 +584,7 @@ h2
 }
 #nav > ul > li:hover > a
 {
-    font-family:'Times New Roman', Times, serif; 
+    font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     color: black;
 }
@@ -475,7 +611,7 @@ h2
 }
 #nav > ul > li > ul > li a
 {
-    font-family:'Times New Roman', Times, serif; 
+    font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     color: white;
 }
@@ -483,7 +619,7 @@ h2
 #nav > ul > li > ul > li
 {
     display: block;
-    
+
     color: #fff;
     border-right: 1px solid rgba(0,0,0,.1);
    border-left: 1px solid rgba(0,0,0,.1);
@@ -500,7 +636,7 @@ h2
 }
 #nav > ul > li > ul  > li:hover a
 {
-    font-family:'Times New Roman', Times, serif; 
+    font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     color: black;
 }
@@ -668,7 +804,7 @@ flex-shrink: 0;
 background-size: contain;
 background-repeat: no-repeat;
 background-position: center;
-margin-right: 5%; 
+margin-right: 5%;
 }
 
 .slide:nth-child(1) { background-image: url('images/1/1.png'); }
@@ -730,9 +866,7 @@ margin-right: 5%;
 
 /* Image Slider */
 
-.mySlides {
-    display: none
-}
+
 
 .slideshow-container {
     max-width: 1000px;
@@ -793,9 +927,9 @@ margin-right: 5%;
     animation-name: fade;
     animation-duration: 1.5s;
 }
-  
+
 @keyframes fade {
-    from {opacity: .4} 
+    from {opacity: .4}
     to {opacity: 1}
 }
 
@@ -898,6 +1032,11 @@ body {
     cursor: pointer;
 }
 
+.submenu {
+    list-style: none;
+    padding: 0.125rem 0.5rem;
+    margin: -4px;
+}
 
 /* .event-container {
     display: flex;
@@ -1111,15 +1250,14 @@ h4 {
 .img-name
 {
     width: 30%;
-    margin-top:auto; 
-    margin-left: auto; 
-    margin-bottom: auto; 
+    margin-top:auto;
+    margin-left: auto;
+    margin-bottom: auto;
     margin-right: auto;
 }
 .grid-con-2
 {
     width: 100%;
-    height: 300px;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -1137,7 +1275,7 @@ h4 {
     background: transparent;
 	/* background: #b66e41;
 	background: linear-gradient(90deg, #e39e72, #edf7f6 200%, #b66e41); */
-	
+
 }
 .grid-container:before,
 .grid-container:after
@@ -1209,11 +1347,7 @@ h4 {
 	padding: 20px 20px 20px 20px;
 	font-size: 10px;
 }
-.home-carousel img 
-{
-	height: auto;
-	width: 1300px;
-}
+
 .index-intro-img
 {
     display: block;
@@ -1265,7 +1399,7 @@ h4 {
     border: 1px solid #ccc;
     background-color: #f1f1f1;
 }
-  
+
 .year-tab button {
     background-color: inherit;
     float: left;
@@ -1276,17 +1410,17 @@ h4 {
     transition: 0.3s;
     font-size: 17px;
 }
-  
+
   /* Change background color of buttons on hover */
 .year-tab button:hover {
     background-color: #ddd;
 }
-  
+
   /* Create an active/current tablink class */
 .year-tab button.active {
     background-color: #ccc;
 }
-  
+
   /* Style the tab content */
 .tabcontent {
     display: none;
@@ -1371,7 +1505,7 @@ h4 {
 .panel-tab
 {
     float: left;
-	
+
     width: 50%;
     padding: 15px 15px;
     border-radius: 15px 15px 0 0 ;
@@ -1552,8 +1686,8 @@ h4 {
     color: #fff ;
     border: 1px solid #285690;
     /*background-color: #285690;*/
-  
-  background: #ffb2858f; 
+
+  background: #ffb2858f;
   background-image: -webkit-linear-gradient(top, #ffb2858f, #ffb285b3);
   background-image: -moz-linear-gradient(top, #ffb2858f, #ffb285b3);
   background-image: -ms-linear-gradient(top, #ffb2858f, #ffb285b3);
@@ -1641,4 +1775,3 @@ h4 {
     opacity: 0;
   }
 }
-
